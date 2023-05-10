@@ -25,6 +25,11 @@ namespace AspNetCoreStudy.Controllers
                 UserNo = 1,
                 UserName="홍길동"
             };
+            // # 1번째 방식 View(model)
+            // return View(firstUser);
+
+            //# 2번째 방식 View Bag
+            //ViewBag.User = firstUser;
             return View(firstUser);
         }
 
