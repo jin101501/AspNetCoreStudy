@@ -3,11 +3,11 @@
 ### 1. Net Core(MVC)형식의 프로젝트를 생성을 한뒤 해당되는 패키지를 다운로드한다.
 - DB를 연결을 하기 위해서는 (EnttityFrameworkCore, EnttityFrameworkCore.SqlServer, EnttityFrameworkCore.Tools을 다운을 받아야한다.)
 
-<img src=".\image\create.PNG" width="300">
+<img src=".\image\create.png" width="300">
 
-<img src=".\image\setting1.PNG" width="300">
+<img src=".\image\setting1.png" width="300">
 
-<img src=".\image\setting2.PNG" width="300">
+<img src=".\image\setting2.png" width="300">
 
 ### 2.설치가 완료되면 생성하고자 하는 DB에 관련된 객체의 Class을 Model폴더 아래에 생성을 한다.(예시는 게시판을 만들기 위해 생성을 했다.)
 <img src=".\image\User.PNG" width="300">
@@ -31,5 +31,6 @@
 
  ### 6. DB의 명령어만 만들어진 상태인 상황에서 실제로 만드는 명령어를 Package Manger Console에 update-database 을 입력어를 입력을 해준다.
  - Done 이라는 문고가 나와야 정상적으로 생성이 된다. 만약 생성이 되지않고 오류가 발생이 되면 연결되는 문자열 뒤에 Encrypt=false을 추가하면 에러가 없어지고 생성이 된다.
+
 
   <img src=".\image\Create2.PNG" width="300">
