@@ -27,7 +27,7 @@
 
  ### 5.정상적으로 완료되면 다음과 같이 클래스 파일 및 해당되는 테이블에 관련된 내용이 작성된다.
 
- <img src=".\image\Complete.png" width="300">
+ <img src=".\image\Complete.PNG" width="300">
 
  ### 6. DB의 명령어만 만들어진 상태인 상황에서 실제로 만드는 명령어를 Package Manger Console에 update-database 을 입력어를 입력을 해준다.
  - Done 이라는 문고가 나와야 정상적으로 생성이 된다. 만약 생성이 되지않고 오류가 발생이 되면 연결되는 문자열 뒤에 Encrypt=false을 추가하면 에러가 없어지고 생성이 된다.
