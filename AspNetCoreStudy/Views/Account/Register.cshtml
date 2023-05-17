@@ -1,7 +1,7 @@
 ﻿@model AspNetCoreStudy.Models.User
 <h2>회원가입</h2>
 
-<from class="form-horizontal" method="post" asp-controller="Account" asp-action="Register"> 
+<form class="form-horizontal" method="post" asp-controller = "Account" asp-action="Register"> 
     <div class="form-group">
         <label>사용자 ID</label>
         <input type="text" class="form-control" asp-for="UserId" placeholder="사용자 ID 입력"/>
@@ -21,4 +21,4 @@
         <button type="submit" class="btn btn-primary">회원가입</button>
         <a class="btn btn-warning" href="#">취소</a>
     </div>
-</from>
+</form>
